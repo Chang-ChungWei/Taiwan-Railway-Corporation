@@ -4,7 +4,7 @@
 
 ---
 
-### 📁 專案結構
+### 專案結構
 
 ```
 taiwan_railway_rent_predictor/
@@ -17,7 +17,7 @@ taiwan_railway_rent_predictor/
 
 ---
 
-### 🧼 資料清潔與特徵工程
+### 資料清潔與特徵工程
 
 - 移除建物面積 ≤ 0 與月租金 > 30 萬的異常值
 - 轉換欄位類型（建物面積、租金、日期）
@@ -27,7 +27,7 @@ taiwan_railway_rent_predictor/
 
 ---
 
-### ⚙️ 模型架構與設定
+### 模型架構與設定
 
 - 使用 [CatBoostRegressor](https://catboost.ai/)
 - 設定如下：
@@ -39,7 +39,7 @@ taiwan_railway_rent_predictor/
 
 ---
 
-### 📊 模型效能評估
+### 模型效能評估
 
 | 指標       | R² 分數 |
 |------------|---------|
@@ -51,7 +51,7 @@ taiwan_railway_rent_predictor/
 
 ---
 
-### 📈 圖表輸出
+###  圖表輸出
 
 #### 🔹 建物面積 vs 每月租金（測試資料）
 ![](./建物面積對每月租金(測試資料).png)
@@ -64,7 +64,7 @@ taiwan_railway_rent_predictor/
 
 ---
 
-### 💡 未來優化方向
+###  未來優化方向
 
 - 加入地理邻近性或房價指數作為輔助變數
 - 擴增租期與交易歷史資料
@@ -72,7 +72,7 @@ taiwan_railway_rent_predictor/
 
 ---
 
-### 🧐 開發者
+###  開發者
 
 張中維（Chang, Chung-Wei）
 
