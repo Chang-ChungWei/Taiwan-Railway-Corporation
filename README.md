@@ -1,4 +1,4 @@
-## 🚆 台鐵不動產租金預測模型（Taiwan Railway Rent Predictor）
+##  台鐵不動產租金預測模型（Taiwan Railway Rent Predictor）
 
 本專案建構一個針對台灣鐵路局不動產租賃資料的機器學習模型，預測各物件之月租金。透過資料清潔、特徵工程、CatBoost 演算法與 SHAP 特徵重要性解釋，打造穩定的租金回歸模型。
 
